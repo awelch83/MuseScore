@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>279</width>
-    <height>217</height>
+    <height>219</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -377,32 +377,6 @@
        </property>
       </widget>
      </item>
-     <item row="6" column="0" colspan="3">
-      <widget class="QCheckBox" name="userPosition">
-       <property name="focusPolicy">
-        <enum>Qt::TabFocus</enum>
-       </property>
-       <property name="accessibleName">
-        <string>User position</string>
-       </property>
-       <property name="text">
-        <string>User position</string>
-       </property>
-      </widget>
-     </item>
-     <item row="5" column="0" colspan="3">
-      <widget class="QCheckBox" name="noSlope">
-       <property name="focusPolicy">
-        <enum>Qt::TabFocus</enum>
-       </property>
-       <property name="accessibleName">
-        <string>Horizontal</string>
-       </property>
-       <property name="text">
-        <string>Horizontal</string>
-       </property>
-      </widget>
-     </item>
      <item row="5" column="3">
       <widget class="QToolButton" name="resetNoSlope">
        <property name="sizePolicy">
@@ -423,6 +397,32 @@
        <property name="icon">
         <iconset resource="../musescore.qrc">
          <normaloff>:/data/icons/edit-reset.svg</normaloff>:/data/icons/edit-reset.svg</iconset>
+       </property>
+      </widget>
+     </item>
+     <item row="5" column="0" colspan="3">
+      <widget class="QRadioButton" name="noSlope">
+       <property name="focusPolicy">
+        <enum>Qt::TabFocus</enum>
+       </property>
+       <property name="accessibleName">
+        <string>Horizontal</string>
+       </property>
+       <property name="text">
+        <string>Horizontal</string>
+       </property>
+      </widget>
+     </item>
+     <item row="6" column="0" colspan="3">
+      <widget class="QRadioButton" name="userPosition">
+       <property name="focusPolicy">
+        <enum>Qt::TabFocus</enum>
+       </property>
+       <property name="accessibleName">
+        <string>User position</string>
+       </property>
+       <property name="text">
+        <string>User position</string>
        </property>
       </widget>
      </item>
